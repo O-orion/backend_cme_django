@@ -35,7 +35,8 @@ INSTALLED_APPS = [
     'artigo',
     'etapas',
     'rastreabilidade',
-    'permissao'
+    'permissao',
+    'papel_permissao'
 ]
 
 REST_FRAMEWORK = {
