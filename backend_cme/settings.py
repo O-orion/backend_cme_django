@@ -32,7 +32,9 @@ INSTALLED_APPS = [
     'usuario',
     'papel',
     'authentication',
-    'artigo'
+    'artigo',
+    'etapas',
+    'rastreabilidade'
 ]
 
 REST_FRAMEWORK = {
