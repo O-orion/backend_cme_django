@@ -19,5 +19,6 @@ urlpatterns = [
     path('api/', include('artigo.urls')),
     path('api/', include('etapas.urls')),
     path('api/', include('rastreabilidade.urls')),
-    path('api/', include('permissao.urls'))
+    path('api/', include('permissao.urls')),
+    path('api/', include('papel_permissao.urls')),
 ]
