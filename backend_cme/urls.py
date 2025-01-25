@@ -18,4 +18,6 @@ urlpatterns = [
     path('api/auth/', include('authentication.urls')),
     path('api/', include('artigo.urls')),
     path('api/', include('etapas.urls')),
+    path('api/', include('rastreabilidade.urls')),
+    path('api/', include('permissao.urls'))
 ]
