@@ -17,4 +17,5 @@ urlpatterns = [
     path('api/', include('papel.urls')),
     path('api/auth/', include('authentication.urls')),
     path('api/', include('artigo.urls')),
+    path('api/', include('etapas.urls')),
 ]
